@@ -1,3 +1,69 @@
-{% extends "base.html" %} {% block content %}
-<h1>Weather App</h1>
+{% extends "base.html" %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block content %}
+<h1 class="title">Weather App</h1>
+
+<div class="wrapper">
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquid repudiandae officiis suscipit possimus
+        veniam, odit quae. Soluta dolorem error quaerat omnis praesentium, eius enim asperiores dolores rem consequuntur
+        nulla nisi. Ratione minima quisquam natus corrupti debitis saepe repellendus consequatur omnis dolore rem
+        facilis, nobis voluptatum iusto unde, quo harum odio ipsam eligendi nesciunt dicta perspiciatis! Quasi non
+        debitis sit, quibusdam saepe delectus obcaecati earum voluptatum sapiente, magnam maxime dolore minus, pariatur
+        aut expedita dolorem deserunt quis cumque dolor atque.</div>
+
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquid repudiandae officiis suscipit possimus
+        veniam, odit quae. Soluta dolorem error quaerat omnis praesentium, eius enim asperiores dolores rem consequuntur
+        nulla nisi. Ratione minima quisquam natus corrupti debitis saepe repellendus consequatur omnis dolore rem
+        facilis, nobis voluptatum iusto unde, quo harum odio ipsam eligendi nesciunt dicta perspiciatis! Quasi non
+        debitis sit, quibusdam saepe delectus obcaecati earum voluptatum sapiente, magnam maxime dolore minus, pariatur
+        aut expedita dolorem deserunt quis cumque dolor atque.</div>
+
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquid repudiandae officiis suscipit possimus
+        veniam, odit quae. Soluta dolorem error quaerat omnis praesentium, eius enim asperiores dolores rem consequuntur
+        nulla nisi. Ratione minima quisquam natus corrupti debitis saepe repellendus consequatur omnis dolore rem
+        facilis, nobis voluptatum iusto unde, quo harum odio ipsam eligendi nesciunt dicta perspiciatis! Quasi non
+        debitis sit, quibusdam saepe delectus obcaecati earum voluptatum sapiente, magnam maxime dolore minus, pariatur
+        aut expedita dolorem deserunt quis cumque dolor atque.</div>
+
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquid repudiandae officiis suscipit possimus
+        veniam, odit quae. Soluta dolorem error quaerat omnis praesentium, eius enim asperiores dolores rem consequuntur
+        nulla nisi. Ratione minima quisquam natus corrupti debitis saepe repellendus consequatur omnis dolore rem
+        facilis, nobis voluptatum iusto unde, quo harum odio ipsam eligendi nesciunt dicta perspiciatis! Quasi non
+        debitis sit, quibusdam saepe delectus obcaecati earum voluptatum sapiente, magnam maxime dolore minus, pariatur
+        aut expedita dolorem deserunt quis cumque dolor atque.</div>
+
+</div>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+    body {
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        background-color: rgb(174, 195, 255);
+    }
+
+    .title {
+        text-align: center;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .wrapper>div {
+        background: #fff;
+        padding: 1em;
+    }
+
+    .wrapper>div:nth-child(odd) {
+        background: rgb(236, 236, 255);
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+    }
+</style>
 {% endblock %}
