@@ -8,13 +8,13 @@
 <h1 class="title">Weather App</h1>
 
 <div class="wrapper">
-    <div class="box-1">Box 1</div>
+    <div class="box-1">Search for a City</div>
 
-    <div class="box-2">Box 2</div>
+    <div class="box-2">Image</div>
 
-    <div class="box-3">Box 3</div>
+    <div class="box-3">City Name</div>
 
-    <div class="box-4">Box 4</div>
+    <div class="box-4">Temperature in City</div>
 
 </div>
 
@@ -48,18 +48,32 @@
         grid-row-gap: 1em; */
         /* grid-gap: 1em; */
         display: grid;
-        grid-template-columns: 4fr;
-        grid-gap: 1em;
+        /* grid-template-columns: 4fr; */
+        grid-gap: 2em;
         grid-auto-rows: minmax(100px, auto);
-
     }
 
-    .box-1 {}
+    .box-1 {
+        grid-column: 1/4;
+        grid-row: 1/2;
+        border-radius: 25px;
+    }
 
-    .box-2 {}
+    .box-2 {
+        grid-column: 1;
+        grid-row: 2/6;
+        border-radius: 24px;
+    }
 
-    .box-3 {}
+    .box-3 {
+        grid-column: 2/4;
+        border-radius: 24px;
+    }
 
-    .box-4 {}
+    .box-4 {
+        grid-column: 2/4;
+        grid-row: 3/6;
+        border-radius: 24px;
+    }
 </style>
 {% endblock %}
